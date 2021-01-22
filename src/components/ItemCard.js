@@ -6,7 +6,7 @@ export default function ItemCard({items}){
             <Row>
             {items.map(item =>{ 
                 return(
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '12rem' }}>
                     <Card.Img variant="top" src={item.img} />
                     <Card.Body>
                         <Card.Title>{item.title}</Card.Title>
